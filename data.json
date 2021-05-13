@@ -1,0 +1,70 @@
+{
+    "title": "testQuiz2",
+    "lernstoff" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. ",
+    "questions": [
+        {
+            "question": "Das ist Frage 1",
+            "answers": [
+                {
+                    "answer": "Dasi ist Antwort 1",
+                    "isCorrect": true
+                },
+                {
+                    "answer": "Dasi ist Antwort 2",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Dasi ist Antwort 3",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Dasi ist Antwort 4",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "question": "Das ist Frage 2",
+            "answers": [
+                {
+                    "answer": "Dasi ist Antwort 1",
+                    "isCorrect": true
+                },
+                {
+                    "answer": "Dasi ist Antwort 2",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Dasi ist Antwort 3",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Dasi ist Antwort 4",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "question": "Das ist Frage 3",
+            "answers": [
+                {
+                    "answer": "Dasi ist Antwort 1",
+                    "isCorrect": true
+                },
+                {
+                    "answer": "Dasi ist Antwort 2",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Dasi ist Antwort 3",
+                    "isCorrect": false
+                },
+                {
+                    "answer": "Dasi ist Antwort 4",
+                    "isCorrect": false
+                }
+            ]
+        }
+
+    ]
+}

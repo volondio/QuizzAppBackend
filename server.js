@@ -1,14 +1,19 @@
-const express = require('express'),
-    app = express(),
-    port = process.env.PORT || 3000,
-    mongoose = require('mongoose'),
-    Score = require('./api/models/ScoreModel'),
-    bodyParser = require('body-parser');
+const express = require('express');
+const server = express();
+const mongoose = require('mongoose');
+port = process.env.PORT || 3000;
+const scoresRoute = require('./api/routes/scoreRoute');
+const quizRoute = require('./api/routes/quizRoute');
+require('dotenv/config');
+const bodyParser = require('body-parser');
 
+server.use(bodyParser.json());
+server.use('/scores', scoresRoute);
+server.use('/quizes', quizRoute);
 
-require('dotenv/config')
-
-
+server.get('/', (req, res) => {
+    res.send('We are on Home');
+});
 
 //DB connection
 mongoose.Promise = global.Promise;
@@ -16,11 +21,7 @@ mongoose.connect(process.env.DB_CONNECTION, {useNewUrlParser: true, useUnifiedTo
     console.log('connected to DB')
 );
 
-app.use(bodyParser.urlencoded({extended: true}));
-app.use(bodyParser.json());
 
-const routes = require('./api/routes/scoreRoute');
-routes(app);
 
-app.listen(port);
+server.listen(port);
 console.log('QuizzApp RESTful API server started on: ' + port);

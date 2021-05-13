@@ -1,15 +1,39 @@
-'use strict';
-module.exports = function (app) {
-    const score = require('../controllers/scoreController')
+const express = require('express');
+const router = express.Router();
+const Score = require('../models/ScoreModel')
 
-    app.route('/scores')
-        .get(score.get_all_scores)
-        .get(score.get_score_by_quizId)
-        .post(score.create_score);
+router.get('/', async (req, res) => {
+    try {
+        const scores = await Score.find();
+        res.json(scores)
+    } catch (e) {
+        res.json(e)
+    }
+});
 
-    app.route('/scores/:quizId')
-        .get(score.get_score_by_quizId);
-}
+router.post('/', async (req, res) => {
+    const score = new Score({
+        quizId: req.body.quizId,
+        username: req.body.username,
+        record: req.body.record
+    });
+    try {
+        const savedScore = await score.save();
+        res.json(savedScore);
+    } catch (err) {
+        res.json({message: err});
+    }
+});
+
+router.get('/:quizId', async (req, res) => {
+    console.log(req.params.quizId)
+    try {
+        const scores = await Score.find({quizId: req.params.quizId});
+        res.json(scores)
+    } catch (e) {
+        res.json({message: e})
+    }
+})
 
 
-
+module.exports = router;

@@ -9,7 +9,6 @@ const QuizSchema = new Schema({
     questions: [{
         type: mongoose.Types.ObjectId,
         ref: 'Question',
-        required: true
     }],
     title: {
         type: String,

@@ -2,16 +2,16 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const AnswerSchema = new Schema({
-    questionId: {
-        type: Number,
-        required: true
+    _question: {
+        type: Schema.Types.ObjectId,
+        ref: 'Question'
     },
-    text: {
+    answer: {
         type: String,
         required: true
     },
-    text: {
-        type: String,
+    isCorrect: {
+        type: Boolean,
         required: true
     },
 })
