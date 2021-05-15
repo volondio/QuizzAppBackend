@@ -6,7 +6,7 @@ const ScoreSchema = new mongoose.Schema({
         default: Date.now
     },
     quizId: {
-        type: Number,
+        type: String,
         required: 'QuizId is required'
     },
     username: {
