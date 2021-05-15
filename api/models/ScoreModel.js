@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const ScoreSchema = mongoose.Schema({
+const ScoreSchema = new mongoose.Schema({
     Created_date: {
         type: Date,
         default: Date.now
