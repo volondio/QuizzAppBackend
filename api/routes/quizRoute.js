@@ -57,7 +57,7 @@ router.put('/update/:quizId', async (req, res) => {
         if (dataBaseDate.getTime() <= reqDate.getTime()) {
             console.log('UPDATE ERFOLGREICH')
             Quiz.findOneAndUpdate({_id: req.params.quizId}, update, {new: true})
-                .then(updatedQuiz => res.json({
+                .then(updatedQuiz => res.status(200).json({
                     message: 'UPDATE ERFOLGREICH',
                     updatedQuiz
                 }))
