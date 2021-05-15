@@ -1,70 +1,60 @@
 {
-    "title": "testQuiz2",
-    "lernstoff" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. ",
-    "questions": [
+  "title": "Geschichte des Smartphones",
+  "lernstoff": "1913 bereits erste Visionen von Schriftstellern\n\n1926: Bild „Drahtlose Telefonie“ (Link)\n\n•1931: Text von Erich Kästner\n\n„Ein Herr, der vor ihnen auf dem Trottoir langfuhr, trat plötzlich aufs Pflaster, zog einen Telefonhörer aus der Manteltasche, sprach eine Nummer hinein und rief: ‚Gertrud, hör mal, ich komme heute eine Stunde später zum Mittagessen. Ich will vorher noch ins Laboratorium. Wiedersehen, Schatz!‘ Dann steckte er sein Taschentelefon wieder weg, trat aufs laufende Band, las in einem Buch und fuhr seiner Wege.“\n\n1946: Erste Autotelefone in Amerika\n\n• 1958: A-Netz in Deutschland\n\n1974: B-Netz in Österreich\n\nDefinition Smartphone\n\nKomplexeres Betriebssystem als Mobiltelefone\n\nZusatzdienste wie E-Mail, Browser, Terminkalender, Navigation, Aufnahme und Wiedergabe audiovisueller Inhalte\n\nMöglichkeit zur Installation weiterer Applikationen durch den Endnutzer",
+  "questions": [
+    {
+      "question": "In welchem Jahr gab es die ersten Visionen vom Smartphone",
+      "answers": [
         {
-            "question": "Das ist Frage 1",
-            "answers": [
-                {
-                    "answer": "Dasi ist Antwort 1",
-                    "isCorrect": true
-                },
-                {
-                    "answer": "Dasi ist Antwort 2",
-                    "isCorrect": false
-                },
-                {
-                    "answer": "Dasi ist Antwort 3",
-                    "isCorrect": false
-                },
-                {
-                    "answer": "Dasi ist Antwort 4",
-                    "isCorrect": false
-                }
-            ]
+          "answer": "1913",
+          "isCorrect": true
         },
         {
-            "question": "Das ist Frage 2",
-            "answers": [
-                {
-                    "answer": "Dasi ist Antwort 1",
-                    "isCorrect": true
-                },
-                {
-                    "answer": "Dasi ist Antwort 2",
-                    "isCorrect": false
-                },
-                {
-                    "answer": "Dasi ist Antwort 3",
-                    "isCorrect": false
-                },
-                {
-                    "answer": "Dasi ist Antwort 4",
-                    "isCorrect": false
-                }
-            ]
+          "answer": "1944"
         },
         {
-            "question": "Das ist Frage 3",
-            "answers": [
-                {
-                    "answer": "Dasi ist Antwort 1",
-                    "isCorrect": true
-                },
-                {
-                    "answer": "Dasi ist Antwort 2",
-
-                },
-                {
-                    "answer": "Dasi ist Antwort 3",
-
-                },
-                {
-                    "answer": "Dasi ist Antwort 4",
-
-                }
-            ]
+          "answer": "2005"
+        },
+        {
+          "answer": "1888"
         }
-
-    ]
+      ]
+    },
+    {
+      "question": "Das ist Frage 2",
+      "answers": [
+        {
+          "answer": "Dasi ist Antwort 1"
+        },
+        {
+          "answer": "Dasi ist Antwort 2",
+          "isCorrect": true
+        },
+        {
+          "answer": "Dasi ist Antwort 3"
+        },
+        {
+          "answer": "Dasi ist Antwort 4"
+        }
+      ]
+    },
+    {
+      "question": "Das ist Frage 3",
+      "answers": [
+        {
+          "answer": "Dasi ist Antwort 1",
+          "isCorrect": true
+        },
+        {
+          "answer": "Dasi ist Antwort 2"
+        },
+        {
+          "answer": "Dasi ist Antwort 3"
+        },
+        {
+          "answer": "Dasi ist Antwort 4"
+        }
+      ]
+    }
+  ]
 }

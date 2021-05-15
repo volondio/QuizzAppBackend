@@ -7,6 +7,7 @@ const Quiz = require('../models/quiz-schema')
 
 */
 
+// Get all Quizzes
 router.get('/', async (req, res) => {
     try {
         const quizes = await Quiz.find();
@@ -16,15 +17,17 @@ router.get('/', async (req, res) => {
     }
 });
 
+// Get Quiz by QuizId
 router.get('/:quizId', async (req, res) => {
     try {
-        const quizes = await Quiz.findById(req);
+        const quizes = await Quiz.findById(req.params.quizId);
         res.json(quizes)
     } catch (e) {
         res.json(e)
     }
 });
 
+// Create a Quiz
 router.post('/', async (req, res) => {
     const quiz = new Quiz(req.body);
 
@@ -36,6 +39,7 @@ router.post('/', async (req, res) => {
     }
 });
 
+// Update Lernstoff by QuizId and collision handling
 router.put('/update/:quizId', async (req, res) => {
     let update = {
         lernstoff: req.body.lernstoff,
@@ -43,14 +47,14 @@ router.put('/update/:quizId', async (req, res) => {
     };
     let reqDate = new Date(req.body.last_change);
 
-    Quiz.findById(req.params.quizId).then((oldQuiz) => {
-        console.log('DATABASEDATE: ', oldQuiz.last_change.getTime())
-        console.log('ZUlu Date: ', oldQuiz.last_change)
-        console.log('Local Date: ', oldQuiz.last_change.toLocaleString())
+    Quiz.findById(req.params.quizId).then((latestQuiz) => {
+        console.log('DATABASEDATE: ', latestQuiz.last_change.getTime())
+        console.log('Zulu Date: ', latestQuiz.last_change)
+        console.log('Local Date: ', latestQuiz.last_change.toLocaleString())
         console.log('REQUESTDATE: ', reqDate.getTime())
-        const dataBaseDate = oldQuiz.last_change;
+        const dataBaseDate = latestQuiz.last_change;
 
-        if (dataBaseDate.getTime() < reqDate.getTime()) {
+        if (dataBaseDate.getTime() <= reqDate.getTime()) {
             console.log('UPDATE ERFOLGREICH')
             Quiz.findOneAndUpdate({_id: req.params.quizId}, update, {new: true})
                 .then(updatedQuiz => res.json({
@@ -62,7 +66,7 @@ router.put('/update/:quizId', async (req, res) => {
             console.log('UPDATE FEHLGESCHLAGEN')
             res.json({
                 message: 'UPDATE FEHLGESCHLAGEN!!! Jemand hat erst kürzlich diesen Lernstoff bearbeitet!',
-                oldQuiz
+                latestQuiz
             })
         }
 
