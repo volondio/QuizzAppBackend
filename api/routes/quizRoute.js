@@ -57,19 +57,11 @@ router.put('/update/:quizId', async (req, res) => {
         if (dataBaseDate.getTime() <= reqDate.getTime()) {
             console.log('UPDATE ERFOLGREICH')
             Quiz.findOneAndUpdate({_id: req.params.quizId}, update, {new: true})
-                .then(updatedQuiz => res.status(200).json({
-                   // status: res.status(200),
-                    message: 'UPDATE ERFOLGREICH',
-                    updatedQuiz
-                }))
+                .then(updatedQuiz => res.status(200).json(updatedQuiz))
                 .catch(err => res.status(400).json("Error: " + err));
         } else {
             console.log('UPDATE FEHLGESCHLAGEN')
-            res.status(400).json({
-                //status: res.status(),
-                message: 'UPDATE FEHLGESCHLAGEN!!! Jemand hat erst kürzlich diesen Lernstoff bearbeitet!',
-                latestQuiz
-            })
+            res.status(400).json(latestQuiz)
         }
 
     }).catch(error => {
