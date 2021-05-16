@@ -1,60 +1,908 @@
-{
-  "title": "Geschichte des Smartphones",
-  "lernstoff": "1913 bereits erste Visionen von Schriftstellern\n\n1926: Bild „Drahtlose Telefonie“ (Link)\n\n•1931: Text von Erich Kästner\n\n„Ein Herr, der vor ihnen auf dem Trottoir langfuhr, trat plötzlich aufs Pflaster, zog einen Telefonhörer aus der Manteltasche, sprach eine Nummer hinein und rief: ‚Gertrud, hör mal, ich komme heute eine Stunde später zum Mittagessen. Ich will vorher noch ins Laboratorium. Wiedersehen, Schatz!‘ Dann steckte er sein Taschentelefon wieder weg, trat aufs laufende Band, las in einem Buch und fuhr seiner Wege.“\n\n1946: Erste Autotelefone in Amerika\n\n• 1958: A-Netz in Deutschland\n\n1974: B-Netz in Österreich\n\nDefinition Smartphone\n\nKomplexeres Betriebssystem als Mobiltelefone\n\nZusatzdienste wie E-Mail, Browser, Terminkalender, Navigation, Aufnahme und Wiedergabe audiovisueller Inhalte\n\nMöglichkeit zur Installation weiterer Applikationen durch den Endnutzer",
-  "questions": [
-    {
-      "question": "In welchem Jahr gab es die ersten Visionen vom Smartphone",
-      "answers": [
-        {
-          "answer": "1913",
-          "isCorrect": true
-        },
-        {
-          "answer": "1944"
-        },
-        {
-          "answer": "2005"
-        },
-        {
-          "answer": "1888"
-        }
-      ]
-    },
-    {
-      "question": "Das ist Frage 2",
-      "answers": [
-        {
-          "answer": "Dasi ist Antwort 1"
-        },
-        {
-          "answer": "Dasi ist Antwort 2",
-          "isCorrect": true
-        },
-        {
-          "answer": "Dasi ist Antwort 3"
-        },
-        {
-          "answer": "Dasi ist Antwort 4"
-        }
-      ]
-    },
-    {
-      "question": "Das ist Frage 3",
-      "answers": [
-        {
-          "answer": "Dasi ist Antwort 1",
-          "isCorrect": true
-        },
-        {
-          "answer": "Dasi ist Antwort 2"
-        },
-        {
-          "answer": "Dasi ist Antwort 3"
-        },
-        {
-          "answer": "Dasi ist Antwort 4"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "title": "Geschichte des Smartphones",
+    "lernstoff": "1913 bereits erste Visionen von Schriftstellern\n\n1926: Bild „Drahtlose Telefonie“ (Link)\n\n•1931: Text von Erich Kästner\n\n„Ein Herr, der vor ihnen auf dem Trottoir langfuhr, trat plötzlich aufs Pflaster, zog einen Telefonhörer aus der Manteltasche, sprach eine Nummer hinein und rief: ‚Gertrud, hör mal, ich komme heute eine Stunde später zum Mittagessen. Ich will vorher noch ins Laboratorium. Wiedersehen, Schatz!‘ Dann steckte er sein Taschentelefon wieder weg, trat aufs laufende Band, las in einem Buch und fuhr seiner Wege.“\n\n1946: Erste Autotelefone in Amerika\n\n• 1958: A-Netz in Deutschland\n\n1974: B-Netz in Österreich\n\nDefinition Smartphone\n\nKomplexeres Betriebssystem als Mobiltelefone\n\nZusatzdienste wie E-Mail, Browser, Terminkalender, Navigation, Aufnahme und Wiedergabe audiovisueller Inhalte\n\nMöglichkeit zur Installation weiterer Applikationen durch den Endnutzer",
+    "questions": [
+      {
+        "question": "In welchem Jahr gab es die ersten Visionen vom Smartphone",
+        "answers": [
+          {
+            "answer": "1913",
+            "isCorrect": true
+          },
+          {
+            "answer": "1944"
+          },
+          {
+            "answer": "2005"
+          },
+          {
+            "answer": "1888"
+          }
+        ]
+      },
+      {
+        "question": "Das erste Smartphone wurde von welcher Firma hergestellt? ",
+        "answers": [
+          {
+            "answer": "Apple"
+          },
+          {
+            "answer": "IBM",
+            "isCorrect": true
+          },
+          {
+            "answer": "Nokia"
+          },
+          {
+            "answer": "Samsung"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Iphone OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999"
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2008"
+          },
+          {
+            "answer": "2007",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999"
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title": "Grundlagen Mobile",
+    "lernstoff": "Definition Apps\n\n\nKurz für „Application“\n\nJegliche Art von Anwendungssoftware für Smartphones und Tablets\n\nApp-Arten\n\nNative Apps\n\nWeb-Apps\n\nHybrid-Apps\n\nCross-Platform-Apps\n\n\n\nNative Apps\n\nApps werden direkt in der Programmiersprache der Zielplattform geschrieben und durch dessen Compiler „echter“, nativer Code erzeugt\n\n• Vorteil\n\nvoller Zugriff auf alle Hardware- und Software-Funktionen der Geräte\n\n•Nachteil\n\nApp muss für jede Plattform komplett neu entwickelt werden\n\nProgrammiersprachen\n\nJava (Google Android)\n\nObjective-C und Swift (Apple iOS)\n\nC#, C und C++ (Microsoft Windows)\n\n\n\nWeb-Apps\n\nApps werden in HTML5 und Javascript geschrieben\n\nAnwendung muss nicht installiert werden, sondern wird im Browser des Mobilgerätes ausgeführt – Icon mit Link für die App möglich\n\nVorteil\n\nkomplett Plattform unabhängig\n\nNachteile\n\nkein Zugriff auf Hardware-Komponenten (außer jene, die von HTML5 unterstützt werden)\n\nnicht offline benutzbar\n\n\n\nHybrid-Apps\n\nApps werden in HTML, CSS und Javascript geschrieben und dann mit einem „Wrapper“ für das native Betriebssystem versehen\n\nAnwendung wird – für den User unsichtbar - im nativen Browser des Mobilgerätes ausgeführt\n\nVorteile\n\n(eingeschränkter) Zugriff auf Hardware- und Software-Komponenten des mobilen Gerätes\n\nIdentischer Code für mehrere Betriebssysteme\n\nNachteile\n\nkein voller Zugriff auf alle Komponenten\n\nreduzierte Performance durch Wrapper\n\nBekanntestes Framework\n\nApache Cordova/PhoneGap\n\n\n\nCross-Plattform-Apps\n\nApps werden in C#, C++ oder Javascript geschrieben und dann in nativen Betriebssystem-Code kompiliert\n\nAnwendung wird mit den nativen GUI-Elementen des Betriebssystems dargestellt\n\nVorteile\n\numfangreicher Zugriff auf Hardware- und Software-Komponenten des mobilen Gerätes\n\nzum Großteil identischer Code für mehrere Betriebssysteme\n\nNachteile\n\nSpezialfunktionen der Betriebssysteme schwer nutzbar\n\nBekannte Frameworks\n\nXamarin\n\nAppcelerator Titanium Mobile\n\n\n\nApp-Ausführung\n\nImmer nur 1 App im Vordergrund und somit aktiv\n\nRestliche „offene“ Apps inaktiv im Hintergrund\n\n(Eingeschränkte) Möglichkeit für Hintergrundaktivitäten",
+    "questions": [
+      {
+        "question": "Wie viele Apps können gleichzeitig im Vordergrund aktiv sein",
+        "answers": [
+          {
+            "answer": "1",
+            "isCorrect": true
+          },
+          {
+            "answer": "25"
+          },
+          {
+            "answer": "2"
+          },
+          {
+            "answer": "alle"
+          }
+        ]
+      },
+      {
+        "question": "Welche Aussage trifft auf Cross-Plattform-Apps zu?",
+        "answers": [
+          {
+            "answer": "Apps werden in C#, C++ oder Javascript geschrieben und dann in Java-Code kompiliert"
+          },
+          {
+            "answer": "Anwendung wird mit den nativen GUI-Elementen des Betriebssystems dargestellt",
+            "isCorrect": true
+          },
+          {
+            "answer": "Ein Nachteil ist der umfangreicher Zugriff auf Hardware- und Software-Komponenten des mobilen Gerätes"
+          },
+          {
+            "answer": "PhoneGap ist ein bekanntes Framework für Cross-Platform-Apss"
+          }
+        ]
+      },
+      {
+        "question": "In welchen Programmiersprachen werden Hybrid Apps in der Regel geschrieben?",
+        "answers": [
+          {
+            "answer": "Phyton, Scratch und Visual Basics"
+          },
+          {
+            "answer": "Object-C, Swift und JavaScript"
+          },
+          {
+            "answer": "Deutsch, Englisch und Spanisch"
+          },
+          {
+            "answer": "HTML, CSS und JavaScript",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "question": "Vorteile für Hybrid Apps sind?",
+        "answers": [
+          {
+            "answer": "voller Zugriff auf Hardware- und Software-Komponenten des mobilen Gerätes"
+          },
+          {
+            "answer": "Identischer Code für ein Betriebssysteme"
+          },
+          {
+            "answer": "Es gibt keine"
+          },
+          {
+            "answer": "Identischer Code für mehrere Betriebssysteme",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "question": "Nachteile für Hybrid Apps sind?",
+        "answers": [
+          {
+            "answer": "voller Zugriff auf Hardware- und Software-Komponenten des mobilen Gerätes"
+          },
+          {
+            "answer": "halber Zugriff auf alle Komponenten"
+          },
+          {
+            "answer": "Es gibt keine"
+          },
+          {
+            "answer": "reduzierte Performance durch Wrapper",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "question": "Bekannte Frameworks für Hybrid Apps sind?",
+        "answers": [
+          {
+            "answer": "Apache Cordova",
+            "isCorrect": true
+          },
+          {
+            "answer": "React Native"
+          },
+          {
+            "answer": "Angular"
+          },
+          {
+            "answer": "Laravel"
+
+          }
+        ]
+      },
+      {
+        "question": "Welche Aussagen treffen für Web-Apps zu?",
+        "answers": [
+          {
+            "answer": "Apps werden in Object-C und Swift geschrieben"
+          },
+          {
+            "answer": "Anwendung muss nicht installiert werden, sondern wird im Browser des Mobilgerätes ausgeführt – Icon mit Link für die App möglich",
+            "isCorrect": true
+          },
+          {
+            "answer": "ein Vorteil ist kein Zugriff auf Hardware-Komponenten (außer jene, die von HTML5 unterstützt werden)"
+          },
+          {
+            "answer": "Ein Nachteil ist, dass eine Web-App komplett Plattform unabhängig"
+
+          }
+        ]
+      },
+      {
+        "question": "Ein Nachteil für eine Web-App ist? ",
+        "answers": [
+          {
+            "answer": "Apps werden in Object-C und Swift geschrieben"
+          },
+          {
+            "answer": "komplett Plattform abhängig"
+          },
+          {
+            "answer": "kein Zugriff auf Hardware-Komponenten (außer jene, die von HTML5 unterstützt werden)",
+            "isCorrect": true
+          },
+          {
+            "answer": "nur offline benutzbar"
+
+          }
+        ]
+      },
+      {
+        "question": "Welche Aussagen auf Native-Apps treffen zu?",
+        "answers": [
+          {
+            "answer": "Apps werden nicht in der Programmiersprache der Zielplattform geschrieben"
+          },
+          {
+            "answer": "Native-Apps sind komplett Plattform unabhängig"
+          },
+          {
+            "answer": "voller Zugriff auf alle Hardware- und Software-Funktionen der Geräte",
+            "isCorrect": true
+          },
+          {
+            "answer": "Native Apps werden in Phyton programmiert"
+
+          }
+        ]
+      },
+      {
+        "question": "Welche dieser PRogrammiersprachen werden für die Entwicklung nativer Apps verwendet?",
+        "answers": [
+          {
+            "answer": "PHP"
+          },
+          {
+            "answer": "Java",
+            "isCorrect": true
+          },
+          {
+            "answer": "Phyton"
+
+          },
+          {
+            "answer": "Ruby"
+
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title": "Test2",
+    "lernstoff": "1913 bereits erste Visionen von Schriftstellern\n\n1926: Bild „Drahtlose Telefonie“ (Link)\n\n•1931: Text von Erich Kästner\n\n„Ein Herr, der vor ihnen auf dem Trottoir langfuhr, trat plötzlich aufs Pflaster, zog einen Telefonhörer aus der Manteltasche, sprach eine Nummer hinein und rief: ‚Gertrud, hör mal, ich komme heute eine Stunde später zum Mittagessen. Ich will vorher noch ins Laboratorium. Wiedersehen, Schatz!‘ Dann steckte er sein Taschentelefon wieder weg, trat aufs laufende Band, las in einem Buch und fuhr seiner Wege.“\n\n1946: Erste Autotelefone in Amerika\n\n• 1958: A-Netz in Deutschland\n\n1974: B-Netz in Österreich\n\nDefinition Smartphone\n\nKomplexeres Betriebssystem als Mobiltelefone\n\nZusatzdienste wie E-Mail, Browser, Terminkalender, Navigation, Aufnahme und Wiedergabe audiovisueller Inhalte\n\nMöglichkeit zur Installation weiterer Applikationen durch den Endnutzer",
+    "questions": [
+      {
+        "question": "In welchem Jahr gab es die ersten Visionen vom Smartphone",
+        "answers": [
+          {
+            "answer": "1913",
+            "isCorrect": true
+          },
+          {
+            "answer": "1944"
+          },
+          {
+            "answer": "2005"
+          },
+          {
+            "answer": "1888"
+          }
+        ]
+      },
+      {
+        "question": "Das erste Smartphone wurde von welcher Firma hergestellt? ",
+        "answers": [
+          {
+            "answer": "Apple",
+            "isCorrect": true
+          },
+          {
+            "answer": "IBM"
+          },
+          {
+            "answer": "Nokia"
+          },
+          {
+            "answer": "Samsung"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Iphone OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2008"
+          },
+          {
+            "answer": "2007"
+
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      },
+      {
+        "question": "Wann kam das erste Android OS auf dem Markt?",
+        "answers": [
+          {
+            "answer": "1999",
+            "isCorrect": true
+          },
+          {
+            "answer": "2002"
+          },
+          {
+            "answer": "2007"
+          },
+          {
+            "answer": "2008"
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+
+  }
+
+
+
+]

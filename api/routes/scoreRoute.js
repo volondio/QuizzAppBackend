@@ -29,6 +29,7 @@ router.get('/:quizId', async (req, res) => {
     console.log(req.params.quizId)
     try {
         const scores = await Score.find({quizId: req.params.quizId});
+        console.log(scores)
         res.json(scores)
     } catch (e) {
         res.json({message: e})
